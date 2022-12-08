@@ -25,6 +25,7 @@ public class AlertHandling {
         //driver.switchTo().alert().accept();
         System.out.println(driver.switchTo().alert().getText());
         driver.switchTo().alert().dismiss();
+        //driver.quit();
 	}
 
 }
